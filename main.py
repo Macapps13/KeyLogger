@@ -1,2 +1,3 @@
-print("Hello World")
-print("Bye")
+#First Attempt at White Hat Hacking/Cyberscurity Programming
+
+

